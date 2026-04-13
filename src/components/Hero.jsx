@@ -39,7 +39,7 @@ export default function Hero() {
           </button>
 
           <a
-            href="../../public/assets/resume.pdf"
+            href="/assets/resume.pdf"
             download
             className="glass px-6 py-3 rounded-xl"
           >
