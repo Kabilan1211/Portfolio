@@ -5,7 +5,7 @@ export const projects = [
     tag: "FPGA Accelerator",
     image: "/assets/sparse_accelerator.png",
     github: "https://github.com/Kabilan1211/Adaptive-Sparse-Tensor-Accelerator-for-Edge-AI.git",
-    details: "Architected and developed an FPGA-based Adaptive Sparse Tensor Accelerator using Verilog HDL to accelerate matrix multiplication workloads for Edge AI applications. The accelerator performs runtime sparsity analysis and dynamically switches between Dense×Dense, Sparse×Dense, Dense×Sparse, and Sparse×Sparse execution paths. Designed sparse encoding, coordinate matching, MAC datapaths, and adaptive FSM control logic to minimize redundant computations and optimize hardware utilization. Performance evaluation on 8×8 matrix workloads demonstrated a maximum 5.36× speedup over dense execution, reducing computation cycles from 479.5 to 89.5 cycles for sparse workloads. Verified functionality using Xilinx Vivado through RTL simulation, timing validation, and waveform-level debugging."
+    details: "Architected and developed an FPGA-based Adaptive Sparse Tensor Accelerator using Verilog HDL to accelerate matrix multiplication workloads for Edge AI applications. Designed sparse encoding, coordinate matching, MAC datapaths, and adaptive FSM control logic to minimize redundant computations and optimize hardware utilization. Verified functionality using Xilinx Vivado through RTL simulation, timing validation, and waveform-level debugging."
   },
   
   {
@@ -22,7 +22,7 @@ export const projects = [
     tag: "Protocol Design",
     image: "/assets/Axi_Protocol.png",
     github: "https://github.com/Kabilan1211/AXI-Protocol.git",
-    details: "Implemented an AXI4-Lite compliant communication interface using Verilog HDL, focusing on address, data, and response channel handshaking mechanisms. Designed independent read and write channels including AW, W, B, AR, and R transactions while adhering to AXI valid-ready protocol requirements. Developed finite state machines to manage transaction sequencing, synchronization, and response generation between master and slave modules. Performed extensive RTL simulation, waveform debugging, and protocol verification using Xilinx Vivado to validate timing behavior, transaction correctness, and data integrity. The project provided hands-on experience with industry-standard AMBA AXI interconnect protocols widely used in FPGA and ASIC SoC designs."
+    details: "Implemented an AXI4-Lite compliant communication interface using Verilog HDL, focusing on address, data, and response channel handshaking mechanisms. Designed independent read and write channels including AW, W, B, AR, and R transactions while adhering to AXI valid-ready protocol requirements. Developed finite state machines to manage transaction sequencing, synchronization, and response generation between master and slave modules."
   },
   {
     title: "AUROVA - Perfume Vending Machine",
