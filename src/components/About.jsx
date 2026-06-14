@@ -42,7 +42,7 @@ export default function About() {
           <h4 className="font-semibold">
             Hardware Engineer — Jaswa Vending Pvt Ltd
           </h4>
-          <p className="text-gray-400 text-sm">2025 — Present</p>
+          <p className="text-gray-400 text-sm">March, 2025 — May, 2026</p>
           <p className="text-gray-400 mt-2">
             Developed 3D designs, Hardware architecture, and embedded software for AUROVA, India's first perfume vending machine. The system integrates a user-friendly interface, precise dispensing mechanism, and cloud connectivity for real-time monitoring and inventory management, revolutionizing the retail experience in the fragrance industry. It is currently launched in Chennai and Bangalore.
           </p>
@@ -52,7 +52,7 @@ export default function About() {
           <h4 className="font-semibold">
             Research Intern — IIT Roorkee
           </h4>
-          <p className="text-gray-400 text-sm">2024</p>
+          <p className="text-gray-400 text-sm">Feb, 2024 - Apr, 2024</p>
           <p className="text-gray-400 mt-2">
             Worked on earthquake early warning systems and integrated mems based accelerometer and gyroscope sensors for seismic activity monitoring. Developed a sensor-based monitoring solution for real-time data collection and analysis, contributing to improved earthquake preparedness and response strategies. It is a Uttarakhand government project and currently in the development phase. Also worked in gas pipeline leakage detection system, where I designed a current to voltage converter to get the readings from the sensor and designed a passive filter to eliminate the noise from the sensor readings.
             Worked on earthquake early warning systems and sensor-based
